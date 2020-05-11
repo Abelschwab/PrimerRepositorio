@@ -6,7 +6,7 @@ git add <file>: Para pasar archivos de working directory a staging area.
 
 git status: Sirve para ver que archivo tenemos y en cuales estamos trabajando.
 
-git commit: Es para pasar lo que se encuentra en staging area a repository
+git commit: Es para pasar lo que se encuentra en staging area a repository (Guardar el archivo)
 
 git push: Sirve para subirlo a un repository remoto. (servidor)
 
@@ -33,4 +33,6 @@ git log: Ayuda para diferenciar cada version del programa.
 
 git checkout -- NOMBREDELARCHIVO : para revertir los cambios realizados en el proyecto.
 
-git diff NOMBREDELARCHIVO: Para ver ias diferencias del archivo
+git diff NOMBREDELARCHIVO: Para ver las diferencias (modificaciones que se hicieron) del archivo
+
+.gitignore: <-- Se puede crear el archivo mencionado para indicar que es lo que queremos ignorar y no modificar en git.
