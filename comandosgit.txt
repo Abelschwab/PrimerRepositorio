@@ -1,0 +1,36 @@
+// COMANDOS BASICOS
+
+git ini: Crear un proyecto en git.
+
+git add <file>: Para pasar archivos de working directory a staging area.
+
+git status: Sirve para ver que archivo tenemos y en cuales estamos trabajando.
+
+git commit: Es para pasar lo que se encuentra en staging area a repository
+
+git push: Sirve para subirlo a un repository remoto. (servidor)
+
+git pull: Te trae los cambios que hicieron otros desarrolladores.
+
+git clone: Te genera una copia del servidor central a tu computadora para poder trabajar.
+
+
+
+Working directory: Es donde vas a estar trabajando.
+
+staging area: donde vas a pasar todos tus archivos.
+
+repository: Aqui va a quedar todo guardado. 
+
+ls: lista las carpetas que hay.
+
+pwd: te indica la ruta donde estas parado
+
+Tip: Una vez ingresado el primer "git commit" debemos insertar un texto, para que
+cree un ID para cada archivo. 
+
+git log: Ayuda para diferenciar cada version del programa.
+
+git checkout -- NOMBREDELARCHIVO : para revertir los cambios realizados en el proyecto.
+
+git diff NOMBREDELARCHIVO: Para ver ias diferencias del archivo
